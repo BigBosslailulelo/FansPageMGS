@@ -1,0 +1,136 @@
+body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    color: white;
+}
+
+#background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1;
+}
+
+.navbar-brand img#logo {
+    height: 60px;
+    width: auto;
+    transition: transform 0.5s ease, filter 0.3s ease;
+}
+
+.navbar .btn-sm {
+    font-size: 0.75em;
+    padding: 5px 10px;
+}
+
+.btn-outline-success {
+    color: #66ff33;
+    border-color: #66ff33;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-outline-info {
+    color: #33ff33;
+    border-color: #33ff66;
+}
+
+.btn-outline-warning {
+    color: #bb1e1e;
+    border-color: #ff0000;
+}
+
+.modal-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid #66ff33;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.5)!important;
+    border: 1px solid #66ff33;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 255, 51, 0.5);
+}
+
+.carousel-item img {
+    max-height: 500px;
+    object-fit: cover;
+}
+
+ma {
+    color: rgb(180, 204, 180);
+}
+
+a {
+    color: #f8f8f8 !important;
+}
+
+h1, .card-header, a {
+    font-family: 'Oswald', cursive;
+    color: white;
+}
+
+p, .card-text, ma {
+    font-family: 'Roboto Mono', monospace;
+    color: rgb(180, 204, 180);
+}
+
+.modal-content, .modal-header, .modal-dialog form {
+    background-color: black !important;
+}
+
+.modal-body form {
+    background-color: black !important;
+    border: 1px solid #66ff33;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.modal-body label {
+    color: rgb(206, 231, 206);
+}
+
+.modal-body input,
+.modal-body select,
+.modal-body textarea,
+.modal-title {
+    background-color: rgba(30, 30, 30, 0.8);
+    color: rgb(180, 204, 180);
+    border: 1px solid #66ff33;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, border 0.3s ease;
+}
+
+.modal-body input:focus,
+.modal-body select:focus,
+.modal-body textarea:focus {
+    background-color: rgba(50, 50, 50, 0.8);
+    outline: none;
+}
+
+button form, button {
+    border: green;
+}
+
+.small-button {
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 1em;
+    border: none;
+    padding: 2px 20px;
+    cursor: pointer;
+    z-index: 10;
+    transition: background-color 0.3s ease;
+}
+
+.small-button:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}

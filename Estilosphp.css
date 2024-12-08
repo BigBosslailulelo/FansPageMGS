@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@600&family=Nunito:wght@400&display=swap');
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #2f4f4f !important;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px; 
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.mensaje {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    color: #5d8399;
+}
+
+.error {
+    background-color: #f2dede;
+    border: 1px solid #ebccd1;
+    color: #7ca1b6;
+}
+
+.table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #3b5c47;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #4b6a58;
+}
+
+.table tr:hover {
+    background-color: #5c7a5c;
+}
+
+.boton-regresar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    color: #3b5c47;
+    border: 2px solid #3b5c47;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.boton-regresar:hover {
+    background-color: #3b5c47;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #3b5c47;
+    border-radius: 5px;
+    background-color: #2f4f4f;
+    color: #ffffff;
+    font-size: 16px;
+    box-shadow: inset 0px 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus {
+    border-color: #5c7a5c;
+    outline: none;
+    background-color: #3b5c47;
+    box-shadow: 0px 0px 8px rgba(92, 122, 92, 0.8);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #3b5c47;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #5c7a5c;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #2f4f4f;
+    transform: scale(0.95);
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+form button {
+    display: inline-block;
+    width: auto;
+}
+
+form [type="hidden"] {
+    display: none;
+}
